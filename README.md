@@ -1,15 +1,19 @@
 # ACM-ML-task-submission- (Mega Evolution pokemon Prediction )
 
+
 Overview: I have used Pandas for the loading,cleaning, processing,splitting and other miscellaneous handling of Data. Matplotlib and Seaborn for visualisation, enhancement of that visualisation and plotting/formatting of Confusion matrix, ROC and precision recall curve. While the main Training, prediction and Evaluation of the ML model is handles by Scikit Learn.
 The ML algorithm that has been implemented in this project is Random Forest.
 
-![image](https://github.com/user-attachments/assets/7e5d6023-3bc1-4f76-88f6-fe5e4dc202d8)
+![image](https://github.com/user-attachments/assets/5c211c00-a1b3-4aa1-a8eb-be2e3726e0d4)
+
 
 DATASET:
 The dataset used is a CSV file of Pokémon dataset, which contains various Pokémon attributes such as: Name,Type 1,Type 2,Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed,Generation,Legendary. However for the training of the Model we have only used Total,HP,Attack,Defense,Sp. Atk,Sp. Def,Speed attributes as other are irrelevant to our Problem set.
 
+
 Problem Set:
 (i)Prediction of Mega Evolution by plotting (ii)Confusion Matrix (iii)ROC curve (iv)Precision recall curve
+
 
 Problem code/output snippets:
 
