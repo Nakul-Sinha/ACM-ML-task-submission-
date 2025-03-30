@@ -1,5 +1,4 @@
-import pandas as pd  
-import numpy as np  
+import pandas as pd   
 import seaborn as s  
 import matplotlib.pyplot as plt  
 import sklearn
@@ -12,7 +11,7 @@ pk_dataset = pd.read_csv(r"C:\Users\nakul\OneDrive\Desktop\ACM ML PROJECT\RAW DA
 pk_working = pk_dataset.copy()  
 pk_working["Mega_Evolution"] = pk_working["Name"].apply(lambda x: 1 if "Mega" in x else 0)
 
-#To remove collums that are not needed for model training from the working data set
+#To remove columns that are not needed for model training from the working data set
 pk_working = pk_working.drop(columns=["Name", "Type 1", "Type 2", "Generation", "Legendary"])  
 
 
